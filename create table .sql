@@ -1,0 +1,1 @@
+CREATE TABLE products(id INT AUTO_INCREMENT NOT NULL,product_code varchar(250),name varchar(250),quantity varchar(250),price decimal, PRIMARY KEY(id));
