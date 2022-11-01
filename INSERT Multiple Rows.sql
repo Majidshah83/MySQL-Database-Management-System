@@ -1,0 +1,2 @@
+INSERT INTO products(product_code,name,quantity,price) VALUES('pro29','HP','19',1203.99),('pro19','Dell','20',1103.99),('pro032','laptop','392','302.99');
+                                                              
