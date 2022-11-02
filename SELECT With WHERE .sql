@@ -1,0 +1,12 @@
+SELECT id FROM products;
+SELECT id,name,quantity FROM products;
+SELECT * FROM products WHERE name='HP' AND quantity=139;
+SELECT * FROM products WHERE name='HP' OR quantity=39;
+SELECT * FROM products;
+SELECT * FROM `products` WHERE id=2;
+SELECT * FROM products WHERE quantity=19;
+SELECT id AS ID,name AS Student FROM products;
+SELECT id AS ID,name AS 'Student Name' FROM products;
+SELECT* FROM products WHERE quantity<=20;
+SELECT* FROM products WHERE quantity<=20 AND price=1220.99;
+SELECT id,name FROM `products` WHERE quantity<=20 AND price=1203.99;
