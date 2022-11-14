@@ -1,0 +1,1 @@
+SELECT * FROM products WHERE quantity BETWEEN 19 AND 20;
