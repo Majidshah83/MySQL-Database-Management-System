@@ -5,3 +5,4 @@ SELECT MAX(quantity)FROM products;
 SELECT SUM(quantity)FROM products;
 SELECT MAX(quantity) FROM products WHERE quantity<(SELECT MAX(quantity) FROM products);
 SELECT AVG(quantity) FROM products;
+SELECT SUM(quantity) AS TOTALSUM FROM products;
