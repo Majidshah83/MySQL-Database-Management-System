@@ -1,0 +1,1 @@
+SELECT * FROM users_verify INNER JOIN users ON users_verify.user_id = users.id;
