@@ -1,0 +1,1 @@
+SELECT * FROM users_verify LEFT JOIN users ON users_verify.user_id=users.id;
